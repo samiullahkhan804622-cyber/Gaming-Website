@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ORION STAR GAMING</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b1020;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #111a33;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #27345c;
+    }
+
+    header h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      color: #cbd3e8;
+    }
+
+    nav {
+      background: #080d19;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 70px 20px;
+      background: linear-gradient(135deg, #111a33, #18264a);
+    }
+
+    .hero h2 {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: auto;
+      color: #d4dbed;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .section {
+      background: #111a33;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 14px;
+      border: 1px solid #27345c;
+    }
+
+    .section h2 {
+      margin-bottom: 12px;
+    }
+
+    .games {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .game-card {
+      background: #18264a;
+      padding: 25px;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .game-card h3 {
+      margin-bottom: 8px;
+    }
+
+    .notice {
+      background: #211d12;
+      border: 1px solid #665522;
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #080d19;
+      color: #aeb7cc;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 30px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 5px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>⭐ ORION STAR GAMING ⭐</h1>
+    <p>Online Gaming Information Center</p>
+  </header>
+
+  <nav>
+    <a href="#games">Games</a>
+    <a href="#how">How It Works</a>
+    <a href="#security">Security</a>
+    <a href="#responsible">Responsible Gaming</a>
+    <a href="#legal">Legal Information</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Welcome to ORION STAR GAMING</h2>
+    <p>
+      Explore gaming information, featured games and helpful resources
+      in one place.
+    </p>
+  </section>
+
+  <main class="container">
+
+    <section class="section" id="games">
+      <h2>🎮 Featured Games</h2>
+      <p>Explore our featured gaming categories.</p>
+
+      <div class="games">
+        <div class="game-card">
+          <h3>🎰 Casino Games</h3>
+          <p>Gaming information and guides.</p>
+        </div>
+
+        <div class="game-card">
+          <h3>🃏 Card Games</h3>
+          <p>Learn about different card games.</p>
+        </div>
+
+        <div class="game-card">
+          <h3>🎯 Arcade Games</h3>
+          <p>Discover entertaining game categories.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>⭐ Popular Games</h2>
+      <p>
+        Browse popular gaming categories and learn how different games work.
+      </p>
+    </section>
+
+    <section class="section" id="how">
+      <h2>📖 How Gaming Works</h2>
+      <p>
+        Learn the basic rules, features and terminology used in different
+        types of online games.
+      </p>
+    </section>
+
+    <section class="section" id="security">
+      <h2>🔐 Security & Privacy</h2>
+      <p>
+        Protect your personal information and use strong passwords.
+        Always check the privacy and security information of any service
+        before using it.
+      </p>
+    </section>
+
+    <section class="section" id="responsible">
+      <h2>⚠️ Responsible Gaming</h2>
+      <p>
+        Gaming involving money can carry financial risks. Never spend money
+        you cannot afford to lose, and take breaks when needed.
+      </p>
+    </section>
+
+    <section class="section" id="legal">
+      <h2>📍 Legal Information</h2>
+
+      <div class="notice">
+        <p>
+          Gaming and gambling laws vary by U.S. state and jurisdiction.
+          Availability and legal requirements may differ by location.
+          Check applicable local laws and licensing requirements before
+          participating in any real-money gaming activity.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>📞 Contact Us</h2>
+      <p>
+        For general website and gaming-information questions, contact us
+        through your official support channel.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 ORION STAR GAMING — Online Gaming Information Center
+  </footer>
+
+</body>
+</html>
