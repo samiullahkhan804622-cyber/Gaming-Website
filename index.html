@@ -1,1 +1,266 @@
-inbox. Html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Gaming Hub</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #080b12;
+      color: white;
+    }
+
+    header {
+      height: 70px;
+      background: #111722;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 22px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #ff9d18;
+    }
+
+    .menu {
+      font-size: 30px;
+      cursor: pointer;
+    }
+
+    .hero {
+      min-height: 650px;
+      padding: 70px 25px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background:
+        linear-gradient(rgba(5,8,14,.78), rgba(5,8,14,.95)),
+        radial-gradient(circle at center, #26334d, #080b12 70%);
+    }
+
+    .badge {
+      display: inline-block;
+      margin: 0 auto 25px;
+      padding: 10px 18px;
+      border-radius: 25px;
+      background: #ff9418;
+      color: #111;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 42px;
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+
+    h1 span {
+      color: #ff9a19;
+    }
+
+    .hero p {
+      color: #c8ccd4;
+      font-size: 17px;
+      line-height: 1.7;
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: auto;
+      padding: 16px 55px;
+      background: #ff9418;
+      color: #111;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .players {
+      margin-top: 35px;
+      color: #bfc4cd;
+    }
+
+    .section {
+      padding: 55px 22px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h2 {
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: #151b27;
+      padding: 25px;
+      border-radius: 15px;
+      border: 1px solid #293141;
+    }
+
+    .card h3 {
+      color: #ff9a19;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #b8bec9;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #111722;
+      color: #8f96a3;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 35px;
+      }
+
+      .hero {
+        min-height: 620px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">GAMING HUB</div>
+    <div class="menu">☰</div>
+  </header>
+
+  <section class="hero">
+
+    <div class="badge">🎮 GAMING INFORMATION</div>
+
+    <h1>
+      Discover Amazing<br>
+      <span>Gaming Experiences</span>
+    </h1>
+
+    <p>
+      Explore games, gaming news, features and useful information
+      all in one simple and mobile-friendly gaming hub.
+    </p>
+
+    <a href="#games" class="btn">Explore Games</a>
+
+    <div class="players">
+      🎮 Gaming community • New content regularly
+    </div>
+
+  </section>
+
+  <section class="section" id="games">
+
+    <h2>Featured Gaming Categories</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>🎯 Action Games</h3>
+        <p>
+          Discover exciting action games and learn about
+          their features and gameplay.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🏎️ Racing Games</h3>
+        <p>
+          Explore racing titles, cars, tracks and
+          different gaming experiences.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>⚔️ Adventure</h3>
+        <p>
+          Find adventure games with interesting worlds,
+          missions and challenges.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🧩 Strategy</h3>
+        <p>
+          Learn about strategy games that focus on
+          planning, skills and decision-making.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="section">
+
+    <h2>Why Gaming Hub?</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>📱 Mobile Friendly</h3>
+        <p>
+          Designed to look clean and work smoothly on
+          phones, tablets and computers.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>📰 Gaming Updates</h3>
+        <p>
+          Keep your visitors informed about gaming news,
+          releases and useful information.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>⭐ Easy Navigation</h3>
+        <p>
+          Simple sections make it easy for visitors to
+          find the information they need.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    © 2026 Gaming Hub — Gaming Information Website
+  </footer>
+
+</body>
+</html>
